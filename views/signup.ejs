@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>여행이지_회원가입</title>
+    <link rel='stylesheet' href='/stylesheets/signupStyle.css' />
+  </head>
+  <body> 
+      <!-- 로고 -->
+    <div class="Logo" style="margin-left: 48%;">
+      <img src="/images/logo.png" style="height: 70px;">
+    </div>
+
+    <div class="Inner">
+        <div class="LoginDescription">
+          <div class="Description">
+            <a style="font-size: 24px; line-height: 39px;color: #ffffff;"
+            >Travle should be easy!<br/>So we make easy travle.<br/><br/>Everyone can be travler and guide.</a>
+          </div>
+        </div>
+
+        <form action="/signup" method="form">
+          <div class="LoginForm">
+            <input type="email" placeholder="Email" id="input" required/>
+            <input type="password" placeholder="Password" id="input" required/>
+            <input type="password" placeholder="Check Password" id="input" required/>
+            <input type="text" placeholder="Phone" id="input" required/>
+          </div>
+          <div class="button">
+            <img src="/images/SingUpButton.png"/>
+          </div>
+        </form>
+    </div>
+</html>
