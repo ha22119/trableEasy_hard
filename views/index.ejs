@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <meta charset="UTF-8">
+    <title>국내여행은 여행이지</title>
+    <link rel='stylesheet' href='/stylesheets/indexStyle.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <div class="left">
+        <div class="Logo" style="margin-left: 40%;">
+          <img src="/images/logo.png" style="height: 200px; ">
+        </div>
+        <div class="Description_service">
+          <a>코로나로 국외 여행은 꺼려지고<br/>
+            국내 여행은 코스 짜기 귀찮으시죠?<br/><br/>
+            함께 국내여행을 즐기세요!
+            <br/><br/><br/>
+            여행은 ‘여행이지’로 Easy하게!</a>
+        </div>
+    </div>
+
+<div class="LoginPart">
+  <div class="Inner">
+    <div class="LoginDescription">
+      <div class="Description">
+        <a style="font-size: 24px; line-height: 39px;color: #ffffff;"
+        >Travle should be easy!<br/>So we make easy travle.<br/><br/></a>
+        <a style="font-size: 20px; line-height: 39px;color: #ffffff;">
+          Everyone can be travler and guide.</a>
+      </div>
+    </div>
+    <form action="" method="form">
+      <div class="LoginForm">
+        <input type="text" placeholder="Email" id="input"/>
+        <div class="Line"></div>
+        <input type="password" placeholder="Password" id="input"/>
+      </div>
+      <div class="button">
+        <img src="/images/LoginButton.png"/>
+      </div>
+    </form>
+    
+    <div class="Footer">
+      <div id="FindUserInfo"><a href="#">아이디 / 비밀번호 찾기</a></div>
+      <div id="SingUp"><a href="#">회원가입</a></div>
+    </div>
+  </div>
+</div>
   </body>
 </html>
