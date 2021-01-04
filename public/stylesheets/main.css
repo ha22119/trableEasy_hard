@@ -1,0 +1,368 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(250, 250, 250);
+}
+
+img.avatars
+{
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    left: 25px;
+    top: 0px;
+
+
+    background: url(test.png);
+    filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+}
+
+.menus
+{
+    position: absolute;
+    width: 99%;
+    height: 360px;
+
+
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 23px;
+    height: 90px;
+
+    background: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.menu1,.menu2,.menu3,.menu4
+{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.menu1
+{
+    position: absolute;
+    width: 67px;
+    height: 30px;
+    left: 798px;
+    top: 35px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #000000;
+    
+}
+
+.menu2
+{
+    position: absolute;
+    width: 107px;
+    height: 30px;
+    left: 938px;
+    top: 35px;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #000000;
+
+}
+.menu3
+{
+    position: absolute;
+    width: 222px;
+    height: 30px;
+    left: 1101px;
+    top: 35px;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #000000;
+
+
+}
+.menu4
+{
+    position: absolute;
+    width:250px;
+    height: 30px;
+    left: 1250px;
+    top: 35px;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+.searchbox
+{
+    position: absolute;
+    width: 600px;
+    height: 60px;
+    left: 788px;
+    top: 710px;
+
+    background: #FFFFFF;
+    border: 3px solid #257CFF;
+    box-sizing: border-box;
+    border-radius: 30px;
+    display: inline-block;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    
+    
+    color: #000000;
+    
+    
+}
+
+.searchbtn
+{
+    cursor: pointer;
+    position: absolute;
+    width: 90px;
+    height: 60px;
+    left: 1398px;
+    top: 710px;
+
+    background: #257CFF;
+    border: 3px solid #257CFF;
+    border-radius: 30px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    
+    padding: 0px 0px 0px 24px;
+    
+    color: #FFFFFF;
+    
+}
+
+.recomand
+{
+    position: absolute;
+    width: 99%;
+    height: 160px;
+    top: 823px;
+
+    background: #FFFFFF;
+    border: 2.5px solid #ebebeb;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 23px;
+    height: 90px;
+   
+}
+
+.whole
+{
+    position: absolute;
+    width: 65px;
+    height: 59px;
+    left: 114px;
+    top: 17.5px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #2516CF;
+    cursor: pointer;
+}
+
+.seoul
+{
+    position: absolute;
+    width: 216px;
+    height: 59px;
+    left: 300px;
+    top: 17.5px;
+
+   
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;
+}
+
+.gang
+{
+    position: absolute;
+    width: 65px;
+    height: 59px;
+    left: 569px;
+    top: 17.5px;
+
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;
+}
+
+.chung
+{
+    position: absolute;
+    width: 65px;
+    height: 59px;
+    left: 744px;
+    top: 17.5px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;
+}
+
+.geung
+{
+    position: absolute;
+    width: 65px;
+    height: 59px;
+    left: 930px;
+    top: 17.5px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    cursor: pointer;
+}
+
+.jeunra
+{
+    position: absolute;
+    width: 65px;
+    height: 59px;
+    left: 1108px;
+    top: 17.5px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    cursor: pointer;
+}
+
+.jeju
+{
+    position: absolute;
+    width: 65px;
+    height: 59px;
+    left: 1281px;
+    top: 17.5px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    cursor: pointer;
+    
+}
+
+.mySlides {display: none;}
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 97%;
+  position: absolute;
+  width: 100%;
+  margin-left: 35px ;
+  margin-top: 120px;
+  filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
+  cursor: pointer;
+
+}
+
+/* Caption text */
+.text {
+  color: #000000;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+
+.dots
+{
+  margin: 630px 0px 0px 0px;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin: 2px 10px 10px 10px;
+}
+
+.active {
+  background-color: #3824eb;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 50.5s;
+  animation-name: fade;
+  animation-duration: 50.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
