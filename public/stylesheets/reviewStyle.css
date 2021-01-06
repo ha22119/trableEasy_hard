@@ -250,10 +250,11 @@ img.avatars
     background-color: white;
     float: center;
     text-align: start;
+    margin: 30px 3px 3px 3px;
 }
 
 #title{
-    font-size: 36px;
+    font-size: 22px;
     color: #6f6f6f;
     font-weight: bolder;
 }
@@ -291,4 +292,9 @@ img.avatars
     text-align: center;
     padding: 40px;
   }
+  
+button,img{
+    cursor: pointer;
+}
+
   

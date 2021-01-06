@@ -9,7 +9,7 @@
     <!-- 제일 위에 -->
     <div class="menus">
       <img src="/images/logo.png" onClick="location.href='/main'"  alt="Avatar" class="avatars">
-      <a class="menu1" onClick="location.href='/info'" style="color: #1c56ad;">여행코스</a>
+      <a class="menu1" onClick="location.href='/main'" style="color: #1c56ad;">여행코스</a>
       <a class="menu2">지역 가이드</a>
       <a class="menu3">마이페이지</a>
       <a class="menu4">LOGOUT (s19015@gsm.hs.kr)</a>
@@ -21,14 +21,14 @@
       </div>
       <div class="left">
         <div id="img">
-          <img src="/images/GSM_sudal.png" style="width: 100%; height: 100%;"></img>
+          <img src="/images/ex1.jpg" style="width: 100%; height: 100%;"></img>
         </div>
       </div>
         <div class="right">
-          <a id= "coruse_name">여행 코스 이름</a>
+          <a id= "coruse_name">광주 비엔날레 소풍</a>
           <div class="line"></div>
-          <a id= "guide">지역 가이드 이름</a></br></br>
-          <a id= "coruse_summary">여행 코스 내용이 내용내용 여행 코스 내용이 내용내용 여행 코스 내용이 내용내용 </a>
+          <a id= "guide">이은혁</a></br></br>
+          <a id= "coruse_summary" style="font-weight: lighter;">비엔날레는 진짜 축제기간에 가면 재밌고 좋은 작품들을 많이 볼 수 있습니다! 저와 함께 광주로 떠납시다. 주변에는 또 산책하기도 아주 좋아요.</a>
         </div>
         <div class="down">
           <button type="submit" id="enroll_button">신청하기</button>
@@ -37,9 +37,9 @@
     </div>
 
     <div class="links">
-        <button id="info">정보 보기</button>
+        <button id="info" onClick="location.href='/info'">정보 보기</button>
         <a id="line"></a>
-        <button id="review">후기 보기</button>
+        <button id="review" onClick="location.href='/review'"style="background-color: rgb(245, 245, 245);" >후기 보기</button>
     </div>
     <div class="information">
       <a>코스 자세한 정보가 들어갈 곳</br>

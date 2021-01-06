@@ -263,4 +263,9 @@ img.avatars
     text-align: center;
     padding: 40px;
   }
+
+
+button,img{
+    cursor: pointer;
+}
   

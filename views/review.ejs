@@ -8,8 +8,8 @@
   <body> 
     <!-- 제일 위에 -->
     <div class="menus">
-      <img src="/images/logo.png" onClick="location.href='/'"  alt="Avatar" class="avatars">
-      <a class="menu1">여행코스</a>
+      <img src="/images/logo.png" onClick="location.href='/main'"  alt="Avatar" class="avatars">
+      <a class="menu1" onClick="location.href='/main'" style="color: #1c56ad;">여행코스</a>
       <a class="menu2">지역 가이드</a>
       <a class="menu3">마이페이지</a>
       <a class="menu4">LOGOUT (s19015@gsm.hs.kr)</a>
@@ -21,14 +21,14 @@
       </div>
       <div class="left">
         <div id="img">
-          <img src="/images/GSM_sudal.png" style="width: 100%; height: 100%;"></img>
+          <img src="/images/ex1.jpg" style="width: 100%; height: 100%;"></img>
         </div>
       </div>
         <div class="right">
-          <a id= "coruse_name">여행 코스 이름</a>
+          <a id= "coruse_name">광주 비엔날레 소풍</a>
           <div class="line"></div>
-          <a id= "guide">지역 가이드 이름</a></br></br>
-          <a id= "coruse_summary">여행 코스 내용이 내용내용 여행 코스 내용이 내용내용 여행 코스 내용이 내용내용 </a>
+          <a id= "guide">이은혁</a></br></br>
+          <a id= "coruse_summary" style="font-weight: lighter;">비엔날레는 진짜 축제기간에 가면 재밌고 좋은 작품들을 많이 볼 수 있습니다! 저와 함께 광주로 떠납시다. 주변에는 또 산책하기도 아주 좋아요.</a>
         </div>
         <div class="down">
           <button type="submit" id="enroll_button">신청하기</button>
@@ -40,17 +40,24 @@
 
     <div style="text-align: center;">
       <div class="links">
-      <button id="info">정보 보기</button>
+      <button id="info" onClick="location.href='/info'" style="background-color: rgb(245, 245, 245);">정보 보기</button>
       <a id="line"></a>
-      <button id="review">후기 보기</button>
+      <button id="review" onClick="location.href='/review'">후기 보기</button>
       </div>
 
       <div class="reviews">
 
         <!-- 여기에 코드 적용 -->
         <div id="item">
-          <a id="title">후기 제목</a></br></br></br>
-          <a id="review_body">내용 내용 내용</a>
+          <a id="title">정말 비엔날레만 다녀오네요?    (2020.12.19.)</a></br></br></br>
+          <a id="review_body">제가 내성적이라서 말은 못했는데 진짜 비엔날레가고 산책가고 끝일줄이야..  산책하는데 가이드님하고 어색해 죽을뻔 근데 광주 밥이 참 맛있더라고요, 밥먹으려고 광주한번 더 가야겠어욤</a>
+        </div>
+
+        <div id="item">
+          <a id="title">적정한 시기에 잘 갔어요!       (2020.12.18.)</a></br></br></br>
+          <a id="review_body">가이드님이 어쩜 그렇게 친절한지 정말 좋았어요! 비엔날레 아무것도 없을 줄 알았는데 또 뭐가 있긴 하네요? 진짜 근데 볼 거 없긴 한데 그냥 주변 분위기도 좋고
+            밥도 맛있고 해서 암튼 결론적으로는 좋긴했어요. 근데 아니 광주에는 비엔날레밖에 없나유 다른 것 좀 만들어보라고 해봐유
+          </a>
         </div>
         <!-- 여기에 코드 적용 -->
 
