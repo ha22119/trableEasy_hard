@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>여행이지_코스 정보 보기</title>
+    <link rel='stylesheet' href='/stylesheets/infoStyle.css' />
+  </head>
+  <body> 
+    <!-- 제일 위에 -->
+    <div class="menus">
+      <img src="/images/logo.png" onClick="location.href='/main'"  alt="Avatar" class="avatars">
+      <a class="menu1" onClick="location.href='/main'" >여행코스</a>
+      <a class="menu2">지역 가이드</a>
+      <a class="menu3" onClick="location.href='/main/my1'" style="color: #1c56ad;">마이페이지</a>
+      <a class="menu4">LOGOUT (s19015@gsm.hs.kr)</a>
+    </div>
+
+    <div class="summary">
+      <div class="up">
+        <button class="singo_button" onclick="singo_click()">신고하기</button>
+      </div>
+      <div class="left">
+        <div id="img">
+          <img src="/images/ex2.jpg" style="width: 100%; height: 100%;"></img>
+        </div>
+      </div>
+        <div class="right">
+          <a id= "coruse_name">서울 역사 탐방</a>
+          <div class="line"></div>
+          <a id= "guide" style="font-size: 30px;">차현수</a></br></br>
+          <a id= "coruse_summary" style="font-weight: lighter;">이게 제가 진짜 역사킹이어서 중학교때랑 고등학교때 이제 만점을 계속 맞아온 경험으로 역사는 정말 중요한디 이거를 배우자구요 같이</a>
+        </div>
+        
+
+    
+
+
+    <!-- 가이드 정보 -->
+  <div id="id01" class="modal">
+    <form class="modal-content animate" method="post">
+
+      <div class="imgcontainer">
+        <button onclick="singoham" style="background-color: #CD3B2D; color: white; font-size: 18px; border: none; padding: 10px;">신고</button></br>
+        <img src="/images/logo.png" alt="Avatar" class="avatar">
+      </div>
+
+      <div class="container">
+        <div>
+          <label for="uname" style="font-size: 36px; color: #676767;"><b>차현수</b></label>
+        </div>
+
+        <div>
+          <label style="font-size: 12px; color: #676767;"><b>나이</b></label></br>
+          <label for="age" style="font-size:18px; color: #676767;"><b>20세</b></label>
+        </div>
+      </br>
+
+        <div>
+          <label style="font-size: 12px; color: #676767;"><b>연락처</b></label></br>
+          <label for="email" style="font-size: 18px; color: #676767;"><b>ha22119@naver.com</b></label>
+        </div>
+      </br>
+
+      <div>
+        <label style="font-size: 12px; color: #676767;"><b>신고횟수</b></label></br>
+        <label for="email" style="font-size: 18px; color: #676767;"><b>01회</b></label>
+      </div>
+
+      </div>
+    </form>
+  </div>
+    </body>
+
+    <script>
+        function singoham(){
+            alert('신고되었습니다.');
+        }
+    </script>
+
+</html>

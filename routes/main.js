@@ -33,7 +33,7 @@ router.get('/my3', function(req, res, next) {
 });
 
 router.get('/writeReview', function(req, res, next) {
-  res.render('myjjim', { title: 'Express' });
+  res.render('writeReview', { title: 'Express' });
 });
 
 
