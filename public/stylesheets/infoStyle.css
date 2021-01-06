@@ -268,4 +268,123 @@ img.avatars
 button,img{
     cursor: pointer;
 }
+
+.infor{
+    width: 500px; text-align: left;
+}
+
+.Line1{
+    position: relative;
+    width: 180px;
+    height: 10px;
+    left: 416px;
+    top: 35px;
+    background: #257CFF;
+    border-radius: 100px;
+    border: none;
+}
+
+.Line2{
+    position: relative;
+    width: 180px;
+    height: 10px;
+    left: 645px;
+    top: 35px;
+    background: #257CFF;
+    border-radius: 100px;
+    border: none;
+}
+
+.Line3{
+    position: relative;
+    width: 210px;
+    height: 10px;
+    left: 886px;
+    top: 35px;
+    background: #257CFF;
+    border-radius: 100px;
+    border: none;
+}
+
+.h1
+{
+    font-weight: normal;
+    font-size: 28px;
+    position: relative;
+    width: 180px;
+    height: 10px;
+    left: 450px;
+    top: 21px;
+    cursor: pointer;
+}
+.h2
+{
+    font-size: 28px;
+    font-weight: normal;
+    position: relative;
+    width: 180px;
+    height: 10px;
+    left: 690px;
+    top: -40px;
+    cursor: pointer;
+}
+
+.h3
+{
+    font-size: 28px;
+    font-weight: normal;
+    position: relative;
+    width: 220px;
+    height: 10px;
+    left: 890px;
+    top: -70px;
+    cursor: pointer;
+}
+
+.cbtn{
+    position: absolute;
+    margin: 40px 40px 140px 25px;
+    top: 75%;
+    left: 16%;
+    right: 10%;
+    bottom: 10%;
+    width: 70%;
+    height: 35%;
+    background-color: #FFFFFF;
+    border-radius: 2%;
+    border: none;
+    filter: drop-shadow(5px 5px 4px rgba(90, 88, 88, 0.25));
+    cursor: pointer;
+    
+  }
+
+  .ctitle1,.ctitle{
+    position: absolute;
+    left: 240px;
+    font-weight: bold;
+    font-size: 22px;
+    top: 20px;
+    
+  }
+
+  .like
+{
+  position: absolute;
+  left: 240px;
+  font-weight: bold;
+  font-size: 19px;
+  top: 90px;
+
+}
+
+.cdetail
+{
+  position: absolute;
+  left: 240px;
+  font-size: 19px;
+  top: 135px;
+  font-weight: lighter;
+  width: 58%;
+  text-align:left
+}
   

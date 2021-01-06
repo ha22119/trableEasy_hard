@@ -21,15 +21,22 @@
 
         <form action="/signup" method="form">
           <div class="LoginForm">
-            <input type="email" placeholder="Email" id="input" required/>
-            <input type="password" placeholder="Password" id="input" required/>
-            <input type="password" placeholder="Check Password" id="input" required/>
-            <input type="text" placeholder="Phone" id="input" required/>
+            <input type="email" placeholder="Email" id="input" name="email" required/>
+            <input type="password" placeholder="Password" id="input" name="pw" required/>
+            <input type="password" placeholder="Check Password" id="input" name="pwcheck" required/>
+            <input type="text" placeholder="Phone" id="input" name="phone" required/>
           </div>
           <div class="button">
-            <img src="/images/SingUpButton.png" style="cursor: pointer;"/>
+            <img src="/images/SingUpButton.png" style="cursor: pointer;" onClick="start(); location.href='/';" />
           </div>
         </form>
     </div>
     </body>
 </html>
+
+<script>
+  function start(){
+    alert("회원가입이 완료되었습니다!");
+  }
+
+</script>

@@ -3,11 +3,13 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { jjim:req.session.jjim});
+  req.session.jjim=true;
 });
 
 router.get('/main', function(req, res, next) {
-  res.render('main', { title: 'Express' });
+  res.render('main', {jjim:req.session.jjim});
+  req.session.jjim=true;
 });
 
 module.exports = router;
