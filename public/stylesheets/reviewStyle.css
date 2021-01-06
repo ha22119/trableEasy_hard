@@ -227,11 +227,24 @@ img.avatars
     background-color: #ffffff;
     border: none;
 }
-
-.information{
+.reviews{
+    margin-top: 5px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000000;
     text-align: center;
-     padding-top: 5%;
-     padding-bottom: 5%;
-     font-size: 24px;
-    color: #6f6f6f;
+}
+
+#item{
+    height: fit-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    left: 60px;
+    top: 50px;
+
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: yellowgreen;
+
 }
