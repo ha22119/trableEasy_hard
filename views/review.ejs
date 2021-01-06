@@ -17,7 +17,7 @@
 
     <div class="summary">
       <div class="up">
-        <button class="singo_button">신고하기</button>
+        <button class="singo_button" onclick="singo_click()">신고하기</button>
       </div>
       <div class="left">
         <div id="img">
@@ -32,19 +32,79 @@
         </div>
         <div class="down">
           <button type="submit" id="enroll_button">신청하기</button>
-          <img src="/images/not_jjim_Button.png" class="jjim_button"></img>
+          <button id="jjim">
+            <img src="/images/not_jjim_Button.png" class="jjim_button"></img>
+          </button>
         </div>
     </div>
 
-    <div class="links">
-        <button id="info">정보 보기</button>
-        <a id="line"></a>
-        <button id="review">후기 보기</button>
-    </div>
+    <div style="text-align: center;">
+      <div class="links">
+      <button id="info">정보 보기</button>
+      <a id="line"></a>
+      <button id="review">후기 보기</button>
+      </div>
 
-    <div class="reviews">
-      <div id="item">
+      <div class="reviews">
+
+        <!-- 여기에 코드 적용 -->
+        <div id="item">
+          <a id="title">후기 제목</a></br></br></br>
+          <a id="review_body">내용 내용 내용</a>
+        </div>
+        <!-- 여기에 코드 적용 -->
+
       </div>
     </div>
+     <!-- 가이드 정보 -->
+  <div id="id01" class="modal">
+    <form class="modal-content animate" action="/users/login" method="post">
+
+      <div class="imgcontainer">
+        <button style="background-color: #CD3B2D; color: white; font-size: 18px; border: none; padding: 10px;">신고</button></br>
+        <img src="/images/logo.png" alt="Avatar" class="avatar">
+      </div>
+
+      <div class="container">
+        <div>
+          <label for="uname" style="font-size: 36px; color: #676767;"><b>가이드 이름</b></label>
+        </div>
+
+        <div>
+          <label style="font-size: 12px; color: #676767;"><b>나이</b></label></br>
+          <label for="age" style="font-size:18px; color: #676767;"><b>00세</b></label>
+        </div>
+      </br>
+
+        <div>
+          <label style="font-size: 12px; color: #676767;"><b>연락처</b></label></br>
+          <label for="email" style="font-size: 18px; color: #676767;"><b>ha22119@naver.com</b></label>
+        </div>
+      </br>
+
+      <div>
+        <label style="font-size: 12px; color: #676767;"><b>신고횟수</b></label></br>
+        <label for="email" style="font-size: 18px; color: #676767;"><b>00회</b></label>
+      </div>
+
+      </div>
+    </form>
+  </div>
     </body>
+
+    <script>
+      // Get the modal
+      var modal = document.getElementById('id01');
+    
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+          if (event.target == modal) {
+              modal.style.display = "none";
+          }
+      }
+
+      function singo_click(){
+        modal.style.display = "inline";
+      }
+      </script>
 </html>

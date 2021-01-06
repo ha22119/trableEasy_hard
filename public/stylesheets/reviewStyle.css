@@ -196,8 +196,10 @@ img.avatars
     border: none;
 }
 
-.jjim_button{
+#jjim{
     float: right;
+    background-color:rgba(0, 0, 0, 0.0);
+    border: none;
 }
 
 .links{
@@ -219,6 +221,7 @@ img.avatars
     border: none;
 }
 #review{
+    position: relative;
     padding: 20px;
     width: 49%;
     color: #6f6f6f; 
@@ -228,23 +231,64 @@ img.avatars
     border: none;
 }
 .reviews{
-    margin-top: 5px;
+    text-align: center;
     width: 100%;
     height: 100%;
-    border: 1px solid #000000;
-    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
 }
 
 #item{
+    width: 100%;
     height: fit-content;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 50px;
     left: 60px;
     top: 50px;
-
-    border: 1px solid #000000;
+    border: 2px solid #c7c7c7;
     box-sizing: border-box;
     border-radius: 10px;
-    background-color: yellowgreen;
-
+    background-color: white;
+    float: center;
+    text-align: start;
 }
+
+#title{
+    font-size: 36px;
+    color: #6f6f6f;
+    font-weight: bolder;
+}
+#review_body{
+    font-size: 18px;
+    color: #6f6f6f;
+    font-weight: lighter;
+}
+
+
+.container {
+    width: 100%;
+  }
+
+  .modal {
+    display: none;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px; 
+  }
+
+  /* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+    text-align: center;
+    padding: 40px;
+  }
+  
