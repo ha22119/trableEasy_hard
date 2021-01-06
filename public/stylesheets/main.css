@@ -369,3 +369,61 @@ img {
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+
+.nearC
+{
+  position: absolute;
+width: 247px;
+height: 61px;
+left: 88px;
+top: 976px;
+}
+
+.wholeC
+{
+  position: absolute;
+  width: 214px;
+  height: 61px;
+  left: 768px;
+  top: 976px;
+
+}
+
+.nearL
+{
+  position: absolute;
+  width: 640px;
+  height: 5px;
+  left: 0px;
+  top: 73px;
+
+  background: #257CFF;
+  border-radius: 10px;
+}
+
+.wholeL
+{
+  position: absolute;
+  width: 640px;
+  height: 5px;
+  left: 0px;
+  top: 73px;
+
+  background: #257CFF;
+  border-radius: 10px;
+}
+
+.nearCourses
+{
+  width: 260%;
+  height: 700px;
+  background-color: #FFFFFF;
+  bottom: 66px;
+}
+.wholeCourses
+{
+  width: 300%;
+  height: 700px;
+  background-color: #FFFFFF;
+  margin-bottom: 20px;
+}
