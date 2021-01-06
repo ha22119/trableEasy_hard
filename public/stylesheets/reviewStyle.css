@@ -196,8 +196,10 @@ img.avatars
     border: none;
 }
 
-.jjim_button{
+#jjim{
     float: right;
+    background-color:rgba(0, 0, 0, 0.0);
+    border: none;
 }
 
 .links{
@@ -219,6 +221,7 @@ img.avatars
     border: none;
 }
 #review{
+    position: relative;
     padding: 20px;
     width: 49%;
     color: #6f6f6f; 
@@ -228,23 +231,34 @@ img.avatars
     border: none;
 }
 .reviews{
-    margin-top: 5px;
+    text-align: center;
     width: 100%;
     height: 100%;
-    border: 1px solid #000000;
-    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
 }
 
 #item{
+    width: 100%;
     height: fit-content;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 50px;
     left: 60px;
     top: 50px;
-
-    border: 1px solid #000000;
+    border: 2px solid #c7c7c7;
     box-sizing: border-box;
     border-radius: 10px;
-    background-color: yellowgreen;
+    background-color: white;
+    float: center;
+    text-align: start;
+}
 
+#title{
+    font-size: 36px;
+    color: #6f6f6f;
+    font-weight: bolder;
+}
+#review_body{
+    font-size: 18px;
+    color: #6f6f6f;
+    font-weight: lighter;
 }
