@@ -427,3 +427,60 @@ top: 976px;
   background-color: #FFFFFF;
   margin-bottom: 20px;
 }
+
+.cbtn{
+  position: absolute;
+  margin: 40px 40px 40px 25px;
+  width: 240%;
+  height: 460%;
+  background-color: #FFFFFF;
+  border-radius: 2%;
+  border: none;
+  filter: drop-shadow(5px 5px 4px rgba(90, 88, 88, 0.25));
+  cursor: pointer;
+  
+}
+
+
+
+.cbtn1{
+  position: absolute;
+  margin: 40px 40px 40px 25px;
+  width: 275%;
+  height: 460%;
+  background-color: #FFFFFF;
+  border-radius: 2%;
+  border: none;
+  filter: drop-shadow(5px 5px 4px rgba(90, 88, 88, 0.25));
+  cursor: pointer;
+}
+
+.ctitle1,.ctitle{
+  position: absolute;
+  left: 240px;
+  font-weight: bold;
+  font-size: 22px;
+  top: 20px;
+  
+}
+
+.like
+{
+  position: absolute;
+  left: 240px;
+  font-weight: bold;
+  font-size: 19px;
+  top: 90px;
+
+}
+
+.cdetail
+{
+  position: absolute;
+  left: 240px;
+  font-size: 19px;
+  top: 135px;
+  font-weight: lighter;
+  width: 58%;
+  text-align:left
+}

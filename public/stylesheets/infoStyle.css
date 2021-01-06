@@ -19,8 +19,9 @@ img.avatars
 .menus
 {
     position: relative;
-    width: 100%;
+    width: 99%;
     height: 360px;
+
 
     font-style: normal;
     font-weight: bolder;
@@ -35,32 +36,30 @@ img.avatars
 {
     cursor: pointer;
     font-weight: bold;
-    text-align: center;
 }
 
 .menu1
 {
     position: absolute;
-    width: 150px;
+    width: 67px;
     height: 30px;
+    left: 798px;
     top: 35px;
-    right: 37%;
-
     font-weight: bold;
     font-size: 16px;
     line-height: 30px;
 
     color: #000000;
-
+    
 }
 
 .menu2
 {
     position: absolute;
-    width: 150px;
+    width: 107px;
     height: 30px;
+    left: 938px;
     top: 35px;
-    right: 27%;
 
     font-weight: bold;
     font-size: 16px;
@@ -72,9 +71,9 @@ img.avatars
 .menu3
 {
     position: absolute;
-    width: 150px;
+    width: 222px;
     height: 30px;
-    right: 17%;
+    left: 1101px;
     top: 35px;
 
     font-weight: bold;
@@ -88,9 +87,9 @@ img.avatars
 .menu4
 {
     position: absolute;
-    width:225px;
+    width:250px;
     height: 30px;
-    right: 2%;
+    left: 1250px;
     top: 35px;
 
     font-weight: bold;

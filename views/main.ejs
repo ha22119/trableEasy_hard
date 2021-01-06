@@ -7,9 +7,9 @@
   <body>
     
     <div class="menus">
-      <img src="/images/logo.png" onClick="location.href='/'"  alt="Avatar" class="avatars">
-      <a class="menu1">여행코스</a>
-      <a class="menu2">지역 가이드</a>
+      <img src="/images/logo.png" onClick="location.href='/main'"  alt="Avatar" class="avatars">
+      <a class="menu1" onClick="location.href='/main'">여행코스</a>
+      <a class="menu2" >지역 가이드</a>
       <a class="menu3">마이페이지</a>
       <a class="menu4">LOGOUT (s19015@gsm.hs.kr)</a>
     </div>
@@ -62,6 +62,13 @@
       <h1>가까운 여행 코스</h1>
       <hr class="nearL">
       <div class="nearCourses">
+        <button class="cbtn" onClick="location.href='/info'">
+          <img src="/images/ex1.jpg" style="width: 210px; height: 210px; position: absolute; left: 10px; top: 35px;">
+          <h1 class="ctitle">광주 비엔날레 소풍</h1>
+          <h2 class="like">관심수 : 212</h2>
+          <h2 class="cdetail">비엔날레는 진짜 축제기간에 가면 재밌고 좋은 작품들을 많이 볼 수 있습니다! 저와 함께 광주로 떠납시다. 주변에는 또 산책하기도 아주 좋아요.</h2>
+        </button>
+
 
       </div>
     </div>
@@ -70,7 +77,12 @@
       <h1>전체 여행 코스</h1>
       <hr class="wholeL">
       <div class="wholeCourses">
-        
+        <button class="cbtn1" onClick="location.href='/info'">
+          <img src="/images/ex2.jpg" style="width: 210px; height: 210px; position: absolute; left: 10px; top: 35px;">
+          <h1 class="ctitle1">서울 역사 탐방</h1>
+          <h2 class="like">관심수 : 45</h2>
+          <h2 class="cdetail">저의 대학교 역사 동아리 경험으로 알고있는 잘 알려져있지 않은 서울의 역사 문화재를 볼 수 있는 여행 코스 입니다. 역사에 관심 많으신 분 저와 함께 해요.</h2>
+        </button>
       </div>
     </div>
     
