@@ -37,13 +37,20 @@ router.get('/writeReview', function(req, res, next) {
 });
 
 router.get('/noguide', function(req, res, next) {
-  res.render('noguide', { title: 'Express' });
+  res.render('guide', { title: 'Express' });
 });
 
 router.get('/noguide/enroll', function(req, res, next) {
   res.render('enroll', { title: 'Express' });
 });
 
+router.get('/noguide/travel', function(req, res, next) {
+  res.render('writeCourse', { title: 'Express' });
+});
+
+router.get('/enroller', function(req, res, next) {
+  res.render('guide2', { title: 'Express' });
+});
 
 
 module.exports = router;

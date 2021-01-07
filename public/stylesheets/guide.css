@@ -1,0 +1,657 @@
+.body{
+    background-color: #ffffff;
+
+}
+
+/* 맨 위 */
+img.avatars
+{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 25px;
+    top: 0px;
+    background: url(logo.png);
+    filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+}
+
+.menus
+{
+    position: relative;
+    width: 99%;
+    height: 360px;
+
+
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 23px;
+    height: 90px;
+
+    background: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.menu1,.menu2,.menu3,.menu4
+{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.menu1
+{
+    position: absolute;
+    width: 67px;
+    height: 30px;
+    left: 798px;
+    top: 35px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #000000;
+    
+}
+
+.menu2
+{
+    position: absolute;
+    width: 107px;
+    height: 30px;
+    left: 938px;
+    top: 35px;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #000000;
+
+}
+.menu3
+{
+    position: absolute;
+    width: 222px;
+    height: 30px;
+    left: 1101px;
+    top: 35px;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #000000;
+
+
+}
+.menu4
+{
+    position: absolute;
+    width:250px;
+    height: 30px;
+    left: 1250px;
+    top: 35px;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+/* 중간 파란 부분 */
+.summary{
+    position: relative;
+    width: 85%;
+    height: 500px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    background-color: #257CFF;
+}
+
+.up{
+    float: right;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.singo_button{
+    right: 0%;
+    border: none;
+    box-shadow: 0 0 0 4px #FFFFFF inset; 
+    border-radius: 10px;
+    padding: 15px;
+    float: right;
+    top: 0px;
+    background-color: #257CFF;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.left{
+    width: 30%;
+    height: 80%;
+    float: left;
+}
+#img{
+    width: 100%;
+    height: 100%;
+    background-color: #FAFAFA;
+
+    /* text-align: center; */
+}
+
+.right{
+    width: 50%;
+    float: left;
+    padding-left: 5%;
+    text-align: left;
+}
+
+
+
+#coruse_name{
+    font-weight: normal;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+.line{
+    width: 100%;
+    height: 5px;
+    background-color: #FFFFFF;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#guide{
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 5%;
+
+}
+
+#coruse_summary{
+    font-weight: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.down{
+    float: right;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#enroll_button{
+    left: 60%;
+    width: 25%;
+    height: 100px;
+    background-color: #ffffff;
+    color: #555555;
+    font-size: 36px;
+    font-weight: bolder;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: none;
+}
+
+.jjim_button{
+    float: right;
+}
+
+.links{
+    width: 100%;
+    float: left;
+    border-bottom: 3px solid #c7c7c7;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+/* 정보 보기랑 후기 보기 */
+#info{
+    padding: 20px;
+    width: 49%;
+    color: #6f6f6f; 
+    font-size: 36px; 
+    font-weight: bold;
+    background-color: #ffffff;
+    border: none;
+}
+#review{
+    padding: 20px;
+    width: 49%;
+    color: #6f6f6f; 
+    font-size: 36px; 
+    font-weight: bold;
+    background-color: #ffffff;
+    border: none;
+}
+
+.information{
+    text-align: center;
+     padding-top: 5%;
+     padding-bottom: 5%;
+     font-size: 24px;
+    color: #6f6f6f;
+}
+
+
+.container {
+    width: 100%;
+  }
+
+  .modal {
+    display: none;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px; 
+  }
+
+  /* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+    text-align: center;
+    padding: 40px;
+  }
+
+
+button,img{
+    cursor: pointer;
+}
+
+.infor{
+    width: 500px; text-align: left;
+}
+
+.Line1{
+    position: relative;
+    width: 180px;
+    height: 10px;
+    left: 416px;
+    top: 35px;
+    background: #257CFF;
+    border-radius: 100px;
+    border: none;
+}
+
+.Line2{
+    position: relative;
+    width: 180px;
+    height: 10px;
+    left: 645px;
+    top: 35px;
+    background: #257CFF;
+    border-radius: 100px;
+    border: none;
+}
+
+.Line3{
+    position: relative;
+    width: 210px;
+    height: 10px;
+    left: 486px;
+    top: 40px;
+    background: #257CFF;
+    border-radius: 100px;
+    border: none;
+}
+
+.Line4{
+    position: relative;
+    width: 190px;
+    height: 10px;
+    left: 796px;
+    top: 40px;
+    background: #257CFF;
+    border-radius: 100px;
+    border: none;
+}
+
+.h1
+{
+    font-weight: normal;
+    font-size: 28px;
+    position: relative;
+    width: 220px;
+    height: 10px;
+    left: 500px;
+    top: 21px;
+    cursor: pointer;
+}
+.h2
+{
+    font-size: 28px;
+    font-weight: normal;
+    position: relative;
+    width: 180px;
+    height: 10px;
+    left: 860px;
+    top: -40px;
+    cursor: pointer;
+}
+
+.h3
+{
+    font-size: 28px;
+    font-weight: normal;
+    position: relative;
+    width: 220px;
+    height: 10px;
+    left: 890px;
+    top: -70px;
+    cursor: pointer;
+}
+
+.cbtn{
+    position: absolute;
+    margin: 40px 40px 140px 25px;
+    top: 85%;
+    left: 16%;
+    right: 10%;
+    bottom: 10%;
+    width: 70%;
+    height: 35%;
+    background-color: #FFFFFF;
+    border-radius: 2%;
+    border: none;
+    filter: drop-shadow(5px 5px 4px rgba(90, 88, 88, 0.25));
+    cursor: pointer;
+    
+  }
+
+  
+.cbtn2{
+    position: absolute;
+    margin: 40px 40px 140px 25px;
+    top: 75%;
+    left: 26%;
+    right: 10%;
+    bottom: 10%;
+    width: 50%;
+    height: 35%;
+    border-radius: 2%;
+    border: none;
+    filter: drop-shadow(5px 5px 4px rgba(90, 88, 88, 0.25));
+    cursor: pointer;
+    background-color: #ffffff;
+    
+  }
+
+  .ctitle1,.ctitle{
+    position: absolute;
+    left: 240px;
+    font-weight: bold;
+    font-size: 26px;
+    top: 20px;
+    
+  }
+
+  .like
+{
+  position: absolute;
+  left: 240px;
+  font-weight: bold;
+  font-size: 19px;
+  top: 90px;
+
+}
+
+.cdetail
+{
+  position: absolute;
+  left: 240px;
+  font-size: 19px;
+  top: 135px;
+  font-weight: lighter;
+  width: 58%;
+  text-align:left
+}
+  
+
+.cdetail
+{
+  position: absolute;
+  left: 240px;
+  font-size: 19px;
+  top: 135px;
+  font-weight: lighter;
+  width: 58%;
+  text-align:left
+}
+
+.deungrok
+{
+  position: relative;
+  left: 240px;
+  font-size: 19px;
+  top: 395px;
+  font-weight: lighter;
+  color: #257CFF;
+  width: 58%;
+  text-align:left
+}
+
+.rTitle
+{
+    position: absolute;
+    width: 174px;
+    height: 68px;
+    left: -320px;
+    top: 274px;
+
+    font-family: Jaldi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 68px;
+    /* identical to box height */
+
+
+    color: #257CFF;
+
+}
+
+.searchbox{
+    position: absolute;
+    width: 1360px;
+    height: 100px;
+    left: -320px;
+    top: 379px;
+
+    background: #FFFFFF;
+    border: 2px solid #C7C7C7;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.rDetail
+{
+    position: absolute;
+    width: 174px;
+    height: 68px;
+    left: -320px;
+    top: 496px;
+
+    font-family: Jaldi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 68px;
+    /* identical to box height */
+
+
+    color: #257CFF;
+}
+
+.searchbox1
+{
+    position: absolute;
+    width: 1360px;
+    height: 198px;
+    left: -320px;
+    top: 605px;
+
+    background: #FFFFFF;
+    border: 2px solid #C7C7C7;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+  
+.reviewbtn
+{
+    position: absolute;
+    width: 250px;
+    height: 93px;
+    left: 235px;
+    top: 863px;
+    margin-bottom: 50px;
+
+    background: #257CFF;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: none;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.reviewbtn2
+{
+    position: absolute;
+    width: 250px;
+    height: 93px;
+    left: 385px;
+    top: 763px;
+    margin-bottom: 50px;
+
+    background: #257CFF;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: none;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+
+.eTitle
+{
+    position: absolute;
+    width: 174px;
+    height: 68px;
+    left: -60px;
+    top: -314px;
+
+    font-family: Jaldi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 68px;
+    /* identical to box height */
+
+
+    color: #257CFF;
+
+}
+
+.hr2{
+    position: absolute;
+    top: 28%;
+    left: 4%;
+    width: 700px;
+    border: none;
+    background-color: #257CFF;
+    height: 8px;
+    border-radius: 10px;
+    
+}
+
+.searchbox3{
+    position: absolute;
+    width: 560px;
+    height: 100px;
+    left: -60px;
+    top: -200px;
+
+    background: #FFFFFF;
+    border: 2px solid #C7C7C7;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.eDetail
+{
+    position: absolute;
+    width: 174px;
+    height: 68px;
+    left: -60px;
+    top: -100px;
+
+    font-family: Jaldi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 68px;
+    /* identical to box height */
+
+
+    color: #257CFF;
+}
+
+.searchbox2
+{
+    position: absolute;
+    width: 560px;
+    height: 100px;
+    left: -60px;
+    top: 0px;
+
+    background: #FFFFFF;
+    border: 2px solid #C7C7C7;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.ereason
+{
+    position: absolute;
+    width: 474px;
+    height: 68px;
+    left: -60px;
+    top: 100px;
+
+    font-family: Jaldi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 68px;
+    /* identical to box height */
+
+
+    color: #257CFF;
+}
+
+.searchbox4
+{
+    position: absolute;
+    width: 1160px;
+    height: 500px;
+    left: -60px;
+    top: 200px;
+
+    background: #FFFFFF;
+    border: 2px solid #C7C7C7;
+    box-sizing: border-box;
+    border-radius: 10px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>지역가이드</title>
+    <link rel='stylesheet' href='/stylesheets/guide.css' />
+  </head>
+  <body> 
+    <!-- 제일 위에 -->
+    <div class="menus">
+      <img src="/images/logo.png" onClick="location.href='/main'"  alt="Avatar" class="avatars">
+      <a class="menu1" onClick="location.href='/main'">여행코스</a>
+      <a class="menu2" onclick="location.href='/main/noguide'"  style="color: #1c56ad;">지역 가이드</a>
+      <a class="menu3" onClick="location.href='/main/my1'">마이페이지</a>
+      <a class="menu4" onclick="location.href='/'">LOGOUT (s19060@gsm.hs.kr)</a>
+    </div>
+
+    <div class="summary" style="height: 120px;">
+        <h1 style="color: white; font-weight:normal; font-size: 40px;">이은혁 가이드님</u></h1>
+        <h1 style="color: white;font-weight: lighter; margin: 60px;">- 여행자들에게 당신만 알고 있는 여행코스를 소개하실래요? -</h1><br>
+        
+    </div>
+
+    <div style="position: absolute">
+        <h1 class="h1" onClick="location.href='/main/noguide'">내가 올린 코스</h1>
+        <hr class="Line3">
+        <h1 class="h2" onClick="location.href='/main/enroller'">신청자</h1>
+    </div>
+
+    <button onclick="location.href='/main/noguide/travel'" style="margin: 120px 10px 70px 600px; filter: drop-shadow(5px 5px 4px rgba(90, 88, 88, 0.25)); font-size: 25px; background-color: #ffffff; color: #257CFF; width: 300px; height: 100px; border-radius: 10px; border: none;">여행코스 등록하기</button>
+    <button class="cbtn" onClick="location.href='/info'">
+        <img src="/images/ex1.jpg" style="width: 210px; height: 210px; position: absolute; left: 10px; top: 35px;">
+        <h1 class="ctitle">광주 비엔날레 소풍</h1>
+        <h2 class="like">관심수 : 213</h2>
+        <h2 class="cdetail">비엔날레는 진짜 축제기간에 가면 재밌고 좋은 작품들을 많이 볼 수 있습니다! 저와 함께 광주로 떠납시다. 주변에는 또 산책하기도 아주 좋아요.</h2>
+      </button>
+
+    </body>
+</html>
+
+

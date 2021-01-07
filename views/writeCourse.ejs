@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>여행이지_코스 등록하기</title>
+    <link rel='stylesheet' href='/stylesheets/writeCourseStyle.css' />
+  </head>
+  <body> 
+    <!-- 제일 위에 -->
+    <div class="menus">
+      <img src="/images/logo.png" onClick="location.href='/main'"  alt="Avatar" class="avatars">
+      <a class="menu1" onClick="location.href='/main'" >여행코스</a>
+      <a class="menu2" style="color: #1c56ad;">지역 가이드</a>
+      <a class="menu3" onClick="location.href='/main/my1'">마이페이지</a>
+      <a class="menu4">LOGOUT (s19060@gsm.hs.kr)</a>
+    </div>
+    
+    <form>
+            <div class="summary">
+                <div class="left">
+                    <div id="img">
+                    <input name="picture" type="file" style="width: 100%; height: 100%;"></img>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="time" style="width: 100%; height: fit-content; margin-bottom: 20%;">
+                        <label style="color: #ffffff; font-size: 24px;">기간</label></br>
+                        <input name="start_day" type="date" style="background-color: #ffffff; border: none; width: 40%; padding: 10px; font-weight: bolder;"/>
+                        <a style="color: #ffffff; font-weight: bolder; margin-left: 10px; margin-right: 10px;">~</a>
+                        <input name="end_day" type="date" style="background-color: #ffffff; border: none; width: 40%; padding: 10px; font-weight: bolder;"/>
+                    </div>
+                    <div class="region" style="width: 100%; height: fit-content;">
+                        <label style="color: #ffffff; font-size: 24px;">지역</label></br>
+                        <select name="region" style="background-color: #ffffff; border: none; width: 40%; padding: 10px; font-weight: bolder;">
+                            <option value='seoul'>서울</option>
+                            <option value='incheon'>인천</option>
+                            <option value='gyeongi'>경기</option>
+                            <option value='gangone'>강원</option>
+                            <option value='chungchung'>충청</option>
+                            <option value='gyeongsang'>경상</option>
+                            <option value='jeonla'>전라</option>
+                            <option value='jeju'>제주</option>
+                        </select><br><br>
+                        <input name="region_ect" type="text" placeholder="상세 주소를 적어주세요" style="background-color: #ffffff; border: none; width: 90%; padding: 10px;"/>
+                    </div>    
+                </div>
+            </div>
+            <div class="main"  style="width: 100%; height: fit-content; text-align: center; float: center; padding-top: 50px; padding-bottom: 15%;">
+                <input name="course_title" type="text" placeholder="제목을 적어주세요" style="background-color: #ffffff; border: 2px solid #c7c7c7; border-radius: 10px; 
+                width: 90%; padding: 20px; font-size: 24px;"/>
+                </br></br></br></br>
+                <textarea name="course_title" type="text" placeholder="내용 적어주세요" style="background-color: #ffffff; border:2px solid #c7c7c7;border-radius: 10px;
+                 min-height: 400px; width: 90%; padding: 20px; text-align: start; font-size: 24px;"></textarea>
+                 </br></br>
+                <input name="picture" type="file" style="float: left; margin-left: 5%;"></img>
+                </br>
+                <button type="submit" id="submit_button" onClick="location.href='/main'; start()">코스 등록하기</button>
+            </div>
+            <script>
+                function start(){
+                    alert("등록되었습니다.");
+                }
+            </script>
+        </form>
+    </body>
+</html>

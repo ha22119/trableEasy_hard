@@ -416,7 +416,7 @@ top: 976px;
 .nearCourses
 {
   width: 260%;
-  height: 400px;
+  height: 650px;
   background-color: #FFFFFF;
   bottom: 66px;
 }
@@ -483,4 +483,46 @@ top: 976px;
   font-weight: lighter;
   width: 58%;
   text-align:left
+}
+
+.cbtn2{
+  position: absolute;
+  margin: 340px 40px 40px 25px;
+  width: 240%;
+  height: 460%;
+  background-color: #FFFFFF;
+  border-radius: 2%;
+  border: none;
+  filter: drop-shadow(5px 5px 4px rgba(90, 88, 88, 0.25));
+  cursor: pointer;
+  
+}
+
+.cdetail2
+{
+  position: absolute;
+  left: 240px;
+  font-size: 19px;
+  top: 135px;
+  font-weight: lighter;
+  width: 58%;
+  text-align:left
+}
+
+.like2
+{
+  position: absolute;
+  left: 240px;
+  font-weight: bold;
+  font-size: 19px;
+  top: 90px;
+
+}
+.ctitle2{
+  position: absolute;
+  left: 240px;
+  font-weight: bold;
+  font-size: 22px;
+  top: 20px;
+  
 }

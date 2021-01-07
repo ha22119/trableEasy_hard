@@ -1,0 +1,144 @@
+.body{
+    background-color: #FAFAFA;
+
+}
+
+/* 맨 위 */
+img.avatars
+{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 25px;
+    top: 0px;
+    background: url(logo.png);
+    filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+}
+
+.menus
+{
+    position: relative;
+    width: 99%;
+    height: 360px;
+
+
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 23px;
+    height: 90px;
+
+    background: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.menu1,.menu2,.menu3,.menu4
+{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.menu1
+{
+    position: absolute;
+    width: 67px;
+    height: 30px;
+    left: 798px;
+    top: 35px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #000000;
+    
+}
+
+.menu2
+{
+    position: absolute;
+    width: 107px;
+    height: 30px;
+    left: 938px;
+    top: 35px;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #000000;
+
+}
+.menu3
+{
+    position: absolute;
+    width: 222px;
+    height: 30px;
+    left: 1101px;
+    top: 35px;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #000000;
+
+
+}
+.menu4
+{
+    position: absolute;
+    width:250px;
+    height: 30px;
+    left: 1250px;
+    top: 35px;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+/* 중간 파란 부분 */
+.summary{
+    position: relative;
+    width: 85%;
+    height: 400px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    background-color: #257CFF;
+}
+.left{
+    width: 30%;
+    height: 90%;
+    float: left;
+}
+#img{
+    width: 100%;
+    height: 100%;
+    background-color: #FAFAFA;
+    text-align: center;
+}
+
+.right{
+    width: 50%;
+    float: left;
+    padding-left: 5%;
+    text-align: left;
+}
+
+#submit_button{
+    background-color: #257CFF;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 5%;
+    float: right;
+    cursor: pointer;
+}
