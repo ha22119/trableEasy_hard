@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>가이드 등록</title>
+    <link rel='stylesheet' href='/stylesheets/infoStyle.css' />
+  </head>
+  <body> 
+    <!-- 제일 위에 -->
+    <div class="menus">
+      <img src="/images/logo.png" onClick="location.href='/main'"  alt="Avatar" class="avatars">
+      <a class="menu1" onClick="location.href='/main'" >여행코스</a>
+      <a class="menu2" style="color: #1c56ad;">지역 가이드</a>
+      <a class="menu3" onClick="location.href='/main/my1'" >마이페이지</a>
+      <a class="menu4" onclick="location.href='/'">LOGOUT (s19015@gsm.hs.kr)</a>
+    </div>
+
+   
+    <hr>
+        <div class="deungrok">
+        
+          <h1 class="eTitle">이름</h1>
+          <input type="search" class="searchbox3" placeholder="이름을 입력하세요" required>
+          <h1 class="eDetail">생년월일</h1>
+          <input type="search" class="searchbox2" placeholder="생년월일을 입력하세요 ex)2003.01.31" required>
+          <h1 class="ereason">자기소개, 계획</h1>
+          <input type="search" class="searchbox4" placeholder="자기소개를 해주세요" required>
+          <button class="reviewbtn2" onclick="location.href='/main'; end()">등록</button>
+
+        </div>
+
+        <script>
+          function end(){
+            alert("신청되었습니다.");
+          }
+        </script>
+        
+
+    
+
+
+ </body>
+
+</html>

@@ -12,7 +12,7 @@
       <a class="menu1" onClick="location.href='/main'" >여행코스</a>
       <a class="menu2">지역 가이드</a>
       <a class="menu3" onClick="location.href='/main/my1'" style="color: #1c56ad;">마이페이지</a>
-      <a class="menu4">LOGOUT (s19015@gsm.hs.kr)</a>
+      <a class="menu4" onclick="location.href='/'">LOGOUT (s19015@gsm.hs.kr)</a>
     </div>
 
     <div class="summary">
@@ -30,6 +30,21 @@
           <a id= "guide" style="font-size: 30px;">차현수</a></br></br>
           <a id= "coruse_summary" style="font-weight: lighter;">이게 제가 진짜 역사킹이어서 중학교때랑 고등학교때 이제 만점을 계속 맞아온 경험으로 역사는 정말 중요한디 이거를 배우자구요 같이</a>
         </div>
+
+        <div class="deungrok">
+          <h1 class="rTitle">제목</h1>
+          <input type="search" class="searchbox" placeholder="제목을 입력하세요" required>
+          <h1 class="rDetail">내용</h1>
+          <input type="search" class="searchbox1" placeholder="내용을 입력하세요" required>
+          <button class="reviewbtn" onclick="location.href='/main/my2'; end()">등록</button>
+
+        </div>
+
+        <script>
+          function end(){
+            alert("후기가 등록되었습니다.");
+          }
+        </script>
         
 
     

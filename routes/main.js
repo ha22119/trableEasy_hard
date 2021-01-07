@@ -36,6 +36,14 @@ router.get('/writeReview', function(req, res, next) {
   res.render('writeReview', { title: 'Express' });
 });
 
+router.get('/noguide', function(req, res, next) {
+  res.render('noguide', { title: 'Express' });
+});
+
+router.get('/noguide/enroll', function(req, res, next) {
+  res.render('enroll', { title: 'Express' });
+});
+
 
 
 module.exports = router;
